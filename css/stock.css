@@ -1,0 +1,261 @@
+.card_header .icon_right .fa-cog{
+	border: 1px solid #ccc;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.card_header .icon_left .fa-angle-double-left{
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.client_create .width-10{
+	width: 20px;
+}
+.input_row{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 1.5rem;
+}
+
+/*for border*/
+.stock_border{
+	border-bottom: 1px solid #4d627b;
+	width: 100%;	
+}
+/*end border*/
+
+/*end circle row*/
+
+@media only screen   and (min-device-width : 320px)  and (max-device-width : 480px){ 
+
+	/*header */
+	.header .icon_right{
+	    float: right;
+	    margin-left: 61%;
+	}
+	/*end header*/
+
+	/*for stock list*/
+	.card_body .text {
+		margin-left: -19px;
+    	margin-top: -24px;
+	}
+
+	.card_body_table .table .tr_row{
+		padding: 5px;
+		background: #fff;
+		box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4), 0px 0px 8px rgba(0, 0, 0, 0);
+		border-radius: 5px;
+		margin:11px;
+	}
+	/*end stock list*/
+
+	/*for stock create*/
+	/*input row*/
+	
+	.client_create .input_row .width-50 input{
+		width: 150px;
+	}
+	/*end input row*/
+	.card_body .left{
+		margin-left: 3px;
+    	color: #999;
+   		margin-top:6%;
+	}
+	/*for circle row*/
+	.width-100{
+		display: flex;
+		margin-top:7%;
+	}
+	/*for doughnut chart*/
+	.width-100 .circle{
+		width: 50%;
+	    margin: auto;
+	   
+	}
+	.width-100 .circle{
+		width: 300px;
+		height: 150px;
+		margin-left: -31%;
+	}
+	/*end doughnut chart*/
+
+	/*for total cal*/
+	.width-100 .total{
+		width: 50%;
+	}
+	.width-100 .total .titleWrap{
+		display:inline-block;
+		display: flex;
+		justify-content: space-around;
+		margin: 20px 0px;
+	}
+
+	.width-100 .total  .rent_value{
+		border-left: 6px solid #13A2D7;
+	  	height: 25px;
+	  	margin-left: -48%;
+	}
+	.width-100 .total .totals{
+		margin-left: -31%;
+	}
+	.width-100 .total  .rent{
+		margin-left: -13%;
+	}
+	.width-100 .total  .stock_value{
+		border-left: 6px solid #A3E4FC;
+	  	height: 25px;
+	  	margin-left: -48%;
+	}
+	.width-100 .total  .stock{
+		margin-left: -11%;
+	}
+	/*end total cal*/
+	.card_body_table .table td{
+		width: 0px;
+		height: 0px;
+		padding-left: 10px;
+
+	}
+	.card_body_table .table .tr_row .td_row{
+		padding-left: 105px;
+	}
+	
+	/*end stock create*/
+
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+{	
+	.input_row .width-50{
+		width: 50%;
+	}
+	.input_row  #w-50 {
+		width: 50%;
+    	margin-left: -26.5%;
+	}
+	.stock_border{
+		border-bottom: 1px solid #4d627b;
+	    width: 100%;
+	    margin-left: -21%;
+	}
+	.width-100{
+		display: flex;
+		margin-top:7%;
+	}
+	.width-100 .circle{
+		width: 50%;
+		margin-left:-15%;
+	}
+	.width-100 .circle #myChart{
+		width: 400px;
+	}
+	.width-100 .total{
+		width: 50%;
+	    padding: 30px 10px;
+	    margin-left: -5%;
+	    font-size: 23px;
+	    margin-top: -5%;
+	}
+	.width-100 .total .titleWrap{
+		display:inline-block;
+		display: flex;
+		justify-content: space-around;
+		margin: 30px 0px;
+	}
+	.width-100 .total .titleWrap .value{
+		padding-right:56%; 
+	}
+	
+	.width-100 .total  .rent_value{
+		border-left: 6px solid #13A2D7;
+  		height: 30px;
+  		margin-left: -2%;
+	}
+	
+	.width-100 .total  .stock_value{
+		border-left: 6px solid #A3E4FC;
+  		height: 30px;
+  		margin-left: -2%;
+	}	
+}
+
+/* write for pc*/
+@media screen and (min-width: 1224px){
+
+	.card_header .icon_right .icon_right_inner {
+	    float: right;
+	    position: absolute;
+	    top: 9%;
+	    right: 7px;
+	}
+	.card_body .card_body_left {
+		margin-top:2%;
+	}
+	.card_body_left h5{
+		font-size: 15px;
+	}
+	.card_body .card_body_row {
+		margin-top:-1%;
+	}
+	.input_row .width-50{
+		width: 50%;
+	}
+	.input_row  #w-50 {
+		width: 50%;
+    	margin-left: -26.5%;
+	}
+	.stock_border{
+		border-bottom: 1px solid #4d627b;
+	    width: 100%;
+	    margin-left: -21%;
+	}
+	.width-100{
+		display: flex;
+		margin-top: 3%;
+	}
+	.width-100 .circle{
+		width: 50%;
+		margin-left:-12%;
+	}
+	.width-100 .circle #myChart{
+		width: 500px;
+	}
+	.width-100 .total{
+		width: 50%;
+		padding: 30px 10px;
+	    margin-left: -8%;
+	    font-size: 23px;
+	}
+	.width-100 .total .titleWrap{
+		display:inline-block;
+		display: flex;
+		justify-content: space-around;
+		margin: 30px 0px;
+	}
+	.width-100 .total .titleWrap .value{
+		padding-right:56%; 
+	}
+	
+	.width-100 .total  .rent_value{
+		border-left: 6px solid #13A2D7;
+  		height: 30px;
+  		margin-left: -2%;
+	}
+	.width-100 .total .titleWrap .rent{
+		margin-left: -9%;
+	}
+	.width-100 .total  .stock_value{
+		border-left: 6px solid #A3E4FC;
+  		height: 30px;
+  		margin-left: -2%;
+	}
+	.width-100 .total .titleWrap .stock{
+		margin-left: -9%;
+	}	
+		
+}

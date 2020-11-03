@@ -1,0 +1,626 @@
+/*create client*/
+button{
+	border: 1px solid #bbb;
+	font-size: 13px;
+}
+.input_box{
+	margin-bottom: 4px;
+}
+.card_body .left{
+	float: left;
+	margin-left: -20px;
+	color: #999;
+}
+.card_body .left h4{
+	display: block;
+}
+.card_body .card_row{
+	margin-bottom: 1.5rem;
+	margin-top: -20px;
+}
+.card_body .right{
+	float: right;
+	font-size: 10px;
+	color: #5c5a5a;
+}
+.card_body .right .right_p{
+	text-align: right;
+}
+
+.card_body .client_create{
+	margin-top: 10px;
+	padding: 10px;
+	margin-bottom: 0.5rem;
+}
+.card_body .client_create .postal_input{
+	width: 50%;
+}
+ .client_create .search_content_row .person input{
+	display: block;
+	width: 300px;
+	height: 24px;
+	border: 1px solid #f0eaea;
+	border-radius: 7px;
+	
+}
+
+.client_create .search_content_row input{
+	margin-bottom: 3px;
+}
+.client_create .search_content_row input::placeholder{
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+
+input[type="checkbox"]{
+	position: relative;
+	width: 132px;
+	height:24px;
+	background: #fff;
+	-webkit-appearance:none;
+	border-radius: 20px;
+	outline: none;
+	transition: 0.4s;
+	cursor: pointer;
+	border:1px solid #ddd;
+
+}
+input:checked[type="checkbox"]{
+	background: #fff;
+}
+input[type="checkbox"]::before{
+	position: absolute;
+	content: "";
+	left: 0;
+	width: 49%;
+	height: 21px;
+	background: #fff;
+	border-radius: 20px;
+	transform: scale(1.1);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	transition: 0.4s;
+	background:#cff6fc;
+	
+}
+input:checked[type="checkbox"]::before{
+	left: 63px;
+	background:#cff6fc;
+	color: #fff;
+}
+
+.toggle{
+	position: relative;
+	display: inline;
+}
+.toggle label{
+	position: absolute;
+	font-size: 12px;
+	pointer-events: none;
+}
+.onbtn{
+	bottom:10px;
+    left: 19px;
+	
+}
+.offbtn{
+	bottom: 10px;
+    right: 14px;	
+}
+
+/*Person in charge list*/
+p.email:before,
+p.mobile:before{
+   font-family: FontAwesome;
+   display: inline-block;
+   padding-right: 6px;
+   vertical-align: middle;
+}
+p.mobile:before {
+   font-family: "Font Awesome 6 Free";
+   content: "\f095";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   font-weight:900;
+}
+
+p.email:before {
+   content: "\f003";
+}
+
+/* The Modal (background) */
+.detail_modal{
+  display: none; 
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; /* Enable scroll if needed */
+  /*background-color: rgb(0,0,0);*/ /* Fallback color */
+  background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+}
+.detail_modal-content{
+  background-color: #e6e6e6;
+  margin: auto;
+  padding: 20px;
+  width: 40%;
+  position: absolute;
+  top:60%;
+  left:35%;
+  border-radius: 8px;
+  border: 1px solid #a49494;
+}
+.detail_modal-content .paragraph{
+	margin-top: 25px;
+	
+}
+.detail_modal-content  label{
+	display: block;
+	font-size:15px;
+}
+.detail_modal-content input{
+	width: 100%;
+	border-radius: none;
+	height: 40px;
+	color:#555555; 
+	padding: 10px; 
+	margin: 2px;
+	border-color: #099;
+	border-radius: 6px;
+	border: 1px solid rgba(0,0,0,0.07);
+}
+.detail_modal-content .fa-times {
+	  color: #686666;
+	  float: right;
+	  font-size: 28px;
+	  font-weight: bold;
+	  margin-top: -2%;
+	  margin-right: -1%;
+	  cursor: pointer;
+}
+.close:hover,
+.close:focus {
+	  color: #000;
+	  text-decoration: none;
+	  cursor: pointer;
+}
+.detail_modal .detail_modal-content .search_back{
+	margin-top: 10px;
+}
+.detail_modal .detail_modal-content .fa-arrow-alt-circle-left{
+	float: left;
+	margin-left: 30px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.detail_modal .detail_modal-content button{
+	margin-left: 74%;
+	margin-top:10px;
+}
+.detail_modal .detail_modal-content .fa-search{
+	float: right;
+	color: #686666;
+	cursor: pointer;
+	margin-top:5px;
+}
+.half-signup  .btn-register{
+	background: rgb(0,155,210); 
+}
+.half-signup  .btn-cancle{
+	background:#bfb8b8;
+}
+
+/*End Person in charge list*/
+
+
+/*end create client */
+@media only screen   and (min-device-width : 320px)  and (max-device-width : 480px) {
+	.client_create .search_content_row .person #input_mail{
+ 		margin-bottom: 66%;
+ 	}
+ 	.card_body .left h4 {
+ 		font-size: 18px;
+ 	}
+ 	.border{
+ 		margin-left: 0px;
+ 	}
+ 	.person_row{
+ 		margin-top:10%;
+ 	}
+ 	.card_body .text {
+ 		font-size: 18px;
+ 		margin-left: -15px;
+ 	}
+ 	.card_body_table .table td, th {
+ 		font-size: 3vw;
+ 		color: #999;
+ 		text-align: left;
+ 	}
+ 	.card_body_table .table td .plus a {
+	    background: #177882;
+	    color: #fff;
+	    padding: 2px 10px;
+	    text-align: center;
+	    border: 1px solid #177882;
+	    font-size: 10px;
+	}
+
+	.card_body .card_body_row{
+		margin-top: -7%;
+	}
+	/*For icon*/
+	.card_body .card_body_left h5 {
+		font-size: 12px;
+	}
+	.card_body .card_body_right .btn {
+	    display: inline-block;
+	    width: 30px;
+	    height: 30px;
+	    margin: 3px;
+	    
+	}
+	.card_body .card_body_right .btn i {
+	    line-height: 30px;
+	    font-size: 13px;
+	    transition: 0.2s linear;
+
+	}
+	.person_row .card_body_right .fa-search{
+		display: inline-block;
+	    width: 30px;
+	    margin: 5px;
+	    color: #3498db;
+	    overflow: hidden;
+	    position: relative;
+		margin-bottom: 12px;
+	}
+	.detail_modal-content {
+		padding: 10px;
+	    width: 87%;
+	    top: 42%;
+	    left: 7%;
+	}
+	.detail_modal .detail_modal-content button {
+	    margin-left: 56%;
+	    margin-top: 10px;
+	}
+	.detail_modal-content .paragraph label {
+	    display: block;
+	    font-size: 10px;
+	}
+	.detail_modal-content input {
+		height: 30px;
+	}
+	
+	.person_row .solid .width_name{
+		padding-left: 15px;
+	}
+	.person_row .solid .width_tel{
+		
+		width: 200px;
+	}
+	.person_row .solid .width_phone{
+		width: 20px;
+		text-shadow: 2px 4px 6px rgba(0,0,0,0.4);
+	}
+	.person_row .solid .width_email{
+		width: 200px;
+		padding-left:20px;
+	}
+	.person_row .solid .width_envelope{
+		width: 20px;
+		padding-right: 15px;
+        padding-left: 10px;
+        text-shadow: 2px 4px 6px rgba(0,0,0,0.4);
+	}
+	label{
+		font-size: 12px;
+	}
+	.card_body .client_create .search_content_row .input {
+		padding-left: 6px;
+	}
+	
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+{	
+	.card{
+		width: 700px;
+		margin-left: 35px;
+	}
+	.card_body .client_create{
+		width: 100%;
+		margin-left:20%;
+	}
+	.client_create .search_content_row .postal_input{
+		width: 25%;
+	}
+
+	.search_modal{
+		margin-top: 17%;
+	}		
+
+	.border{
+		margin-top:-7px;
+		margin-left:0px;
+	}
+	.person_row{
+		margin-top:3%;
+
+	}
+	.person_row .card_body_left{
+		margin-top:2%;
+	}
+	.person_row .card_body_left h5{
+		font-size: 15px;
+
+	}
+	.card_body .card_body_row{
+		margin-top:-2%;
+	}
+
+	.search_container{
+		margin-top: 0px;
+	}
+	.search_modal{
+		top: 14%;
+	}
+	.card_body .card_row {
+     	margin-bottom: 2.5rem;
+     	margin-left: 2%;
+   	    margin-top: -16px;
+	}
+	
+	.client_create .search_content_row label{
+		font-size: 17.5px;
+	}
+
+	.card_body .search_container {
+    	margin-top: 15%;
+	}
+
+	.switch_toggle {
+		margin-bottom: 13px;
+	}
+
+	input[type="checkbox"]{
+		width: 200px;
+		height: 40px;
+	}
+	input[type="checkbox"]::before{
+		width: 52%;
+    	height: 35px;
+    	top: 0;
+	}
+	input:checked[type="checkbox"]::before{
+		left: 91px;
+		background:#cff6fc;
+		color: #fff;
+	}
+	.onbtn {
+	    bottom: 15px;
+    	left: 35px;
+	}
+	.offbtn {
+	    bottom: 15px;
+    	right: 30px;
+	}
+	.client_create .search_content_row input{
+		width: 50%;
+   		height: 40px;
+   		margin-bottom: .7rem;
+	}
+	.client_create .search_content_row input::value{
+		padding-left:20px;
+	}
+
+	.client_create .search_content_row  .person input{
+		width: 100%;
+    	height: 40px;
+    	
+	}
+	.client_create .search_content_row  .person input{
+		margin-bottom: 0.8rem;
+	}
+	.card_body .text{
+		margin-top: -19px;
+		font-size: 22px;
+	}
+	#pic_list{
+		margin-top: 6%;
+	}
+	.person_row .card_body_right .fa-search{
+		display: inline-block;
+	    width: 40px;
+	    margin: 5px;
+	    color: #3498db;
+	    overflow: hidden;
+	    position: relative;
+		margin-bottom: 17px;
+	}
+	.detail_modal-content{
+		width: 51%;
+	    top: 38%;
+	    left: 24%;
+	}
+
+}
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+	.wrapper .sidebar .sidebar_inner{
+		left: -100%;
+	}
+	.wrapper .main_container{
+		width: 100%;
+		margin-left: 0;
+		overflow-x: hidden;
+		
+	}
+	.wrapper .main_container .container{
+		width: 900px;
+		margin:30px auto;
+	}
+	.wrapper .main_container .top_navbar{
+		left: 0;
+		width: 100%;
+	}
+	.main_container .top_navbar .right_bar{
+		margin-right: 0px;
+	}
+	.main_container .top_navbar .left_bar,
+	.wrapper .close{
+		display: block;
+	}
+	.wrapper.active .sidebar .sidebar_inner{
+		left: 0;
+	}
+	.wrapper.active .bg_shadow{
+		visibility: visible;
+		opacity: 0.2;
+	}
+
+	.card{
+		width: 700px;
+		margin:auto;
+	}
+	.card .card_body .box_container .box{
+		margin-bottom: 1.5rem;
+	}
+	.card{
+		border-radius: 0px 0px 0px 0px;
+	}
+	.card_header .icon_left .text {
+   	   margin-top: 4px;
+	}
+	.card_header .icon_right {
+		margin-left: 79%;
+	}
+}
+
+
+/* write for pc*/
+@media screen and (min-width: 1224px){
+
+	.card_body .client_create{
+		width: 100%;
+		margin-left:20%;
+	}
+	.switch_toggle{
+		margin-bottom: 3rem;
+	}
+	.client_create .search_content_row input{
+		padding: 13px;
+		margin-bottom:1rem;
+		width: 50%;
+		height: 40px;
+	}
+	.client_create .search_content_row .postal_input{
+		width: 25%;
+	}
+	.card_body .left h4{
+		font-size: 18px;
+    	color: #080707d1;
+	}
+	.card_body .right{
+		font-size:15px;
+	}
+
+	.border{
+		margin-top: -11px;
+		margin-left:0px;
+	}
+	.person_row{
+		margin-top:3%;
+	}
+	.person_row .card_body_table {
+		width: 80%;
+		margin-left:11%;
+		margin-bottom: 8%;
+		margin-top: 0px;
+	}
+	.person_row .card_body_right{
+		margin-right: 9%;
+	} 
+	.person_row .card_body_right .fa-search{
+		display: inline-block;
+	    width: 40px;
+	    margin: 5px;
+	    color: #3498db;
+	    overflow: hidden;
+	    position: relative;
+		margin-bottom: 17px;
+	}
+	.person_row .card_body_left{
+		margin-left:11%;
+		margin-top:2%;
+	}
+	.person_row .card_body_left h5{
+		font-size: 15px;
+
+	}
+	.person_row h4{
+		font-size: 20px;
+	}
+	.client_create .search_content_row label{
+		font-size: 18px;
+	}
+	.card_body .card_body_row {
+		margin-top:-1%;
+	}
+
+	.search_container{
+		margin-top: 0px;
+	}
+	.card_body .card_row {
+     	margin-bottom: 2.5rem;
+     	margin-left: 44%;
+   		margin-top: -14px;
+   
+	}
+	.card_body .card_row .left{
+		margin-left: -80%;
+	}
+	
+	.card_body .search_container {
+    	margin-top: 15%;
+	}
+	.switch_toggle {
+		margin-bottom: 20px;
+	}
+
+	input[type="checkbox"]{
+		width: 200px;
+		height: 40px;
+	}
+	input[type="checkbox"]::before{
+		width: 52%;
+    	height: 35px;
+    	top: 0;
+	}
+	input:checked[type="checkbox"]::before{
+		left: 91px;
+		background:#cff6fc;
+		color: #fff;
+	}
+	.onbtn {
+	    bottom: 16px;
+    	left: 36px;
+	}
+	.offbtn {
+	    bottom: 16px;
+  	   right: 32px;
+	}
+	
+	.pic .switch_toggle .check{
+		width: 50%;
+	}
+
+
+
+	
+
+}

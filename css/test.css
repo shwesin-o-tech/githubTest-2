@@ -1,0 +1,321 @@
+ /*start step by step progress*//
+.multistep-container .active-button{
+    display: table;
+    margin:auto;
+    padding-left:0;
+}
+.multistep-container .active-button li{
+    display: inline-block;
+    width: 100px;
+}
+.multistep-container .active-button li .round-btn{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #cccccc36;
+    display: block;
+    color: #000;
+    text-align: center;
+    margin:auto;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4), 0px 0px 8px rgba(0, 0, 0, 0);
+    line-height: 30%;
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.active-button .round-text{
+    font-size: 10px;
+    margin-left: 34%;
+    display: block;
+    width: 30px;
+    margin-top: 4%;
+    text-align: center;
+    color: #999393;
+}
+.multistep-container .active-button li .step-bar{
+    position: absolute;
+    content: '';
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 80px;
+    height: 4px;
+    background: #000;
+    left: -80px;
+    top: 50%;
+    background: #000;   
+}
+.multistep-container .active-button li.active .round-btn{
+    background: #edae49;
+}
+.global {
+    margin-left: 97%;
+    margin-top: -19%;
+}
+.global  i{
+    font-size: 1.7em;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+/* end step by step progress*/
+
+/*border line*/
+.border_line{
+    border-bottom: 2px solid #999393;
+    width: 297px;
+    margin-left: 3%;
+    margin-top:13%;
+}
+/* End border line*/
+
+/*Start Company info*/
+.company_info p{
+    margin-left: 1%;
+    margin-top: 5%;
+    color: #757373;
+    font-weight: 900;
+    font-size: 14px;
+}
+.company-container{
+    display: block;
+    max-height: 355px;
+    margin-left: 7%;
+    margin-top: 4%;
+    overflow-y: scroll;
+
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+.company-container .company-txt{
+    width: 100%;
+}
+.company-container .company-txt label{
+    display: block;
+    color: #999393;
+    font-size: 12px;
+}
+.company-container .company-txt input{
+    width: 90%;
+    height: 32px;
+}
+.company-txt .circle-container{
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.company-txt .circle-container .circle{
+    width: 30px;
+    height:30px;
+    padding-top:9px;
+    font-size: 10px;
+    margin-right:5px;
+    border-radius: 50%;
+    background-color: #cccccc36;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4), 0px 0px 8px rgba(0, 0, 0, 0);
+}
+.company-txt p{
+    margin-top: 8%;
+    color: rgb(0 0 0 / 33%);
+    display: block;
+    font-size: 12px;
+}
+.col-container{
+    display: flex;
+    margin-top:3%;
+}
+.col-container{
+    margin-left:7%;
+}
+.company-txt .col-50{
+    width: 50%;
+    margin-top: 3%;
+}
+
+.company-txt .col-50 label{
+    font-size: 10px;
+    margin-left:1%;
+}
+.company-txt .col-50 input{
+    width: 85%;
+    margin-top:2%;
+}
+/*.company-txt .col-50 .col-50-text{
+    font-size: 1rem;
+}
+.company-txt .col-50 .col-50-input{
+    margin-left: 13%;
+    width: 80%;
+    margin-top:3%;
+}*/
+.company-txt .col-100{
+    width: 100%;
+    margin-top:5%;
+}
+
+.company-txt .col-100 .label-text{
+    width: 100%;
+    display: flex;
+}
+.company-txt .col-100 .label-text .col-50-text{
+    width: 35%;
+}
+.company-txt .col-100 .label-text i{
+    width: 20%;
+    font-size: 12px;
+    margin-left: -8px;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    color: #999393;
+}
+.company-txt .col-100 .label-text .line{
+    width: 13px;
+    height: 2px;
+    background-color: rgb(0 0 0 / 19%);
+    margin-top: 7px;
+    margin-left: -10px;
+}
+
+.company-txt .col-100 .label-text span{
+    color: rgb(0 0 0 / 40%);
+    margin-left: 1%;
+    font-size: 10px;
+}
+.company-txt .col-100 .col-50-input{
+    width: 40%;
+    margin-left:7%;
+}
+.company-txt{
+    margin-bottom: 3%;
+}
+.multistep-container .Btn{
+    display: block; 
+    overflow: hidden; 
+    position: fixed; 
+    width:90px;
+    background: #6c757dab;
+    color: #ffffff; 
+    border-radius: 9px;
+    box-shadow: 3px 3px 4px rgb(0 0 0 / 25%), 0px 0px 0px rgb(0 0 0 / 33%);
+    right: 17px;
+    height: 25px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 3px;
+    top: 93%;
+}
+.inner{
+    height: 35px;
+    margin-left: 10px;
+}
+.card_header .heading{
+    width: 200px;
+} 
+.card_header .heading .heading-text{
+    font-size: 18px;
+    text-align: left;
+}
+.card_header .setting {
+    float: right;
+    margin-left: 19%;
+}
+.card_header .heading  .heading-text-sub{
+    font-size: 10px;
+    text-align: left;
+}
+
+/*For modal box*/
+.mobal-box{
+    width: 85%;
+    background: #edf2f7;
+    position: absolute;
+    border-radius: 8px;
+    height: 42%;
+    top: 51%;
+    left: 7%;
+    display: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
+
+}
+.mobal-box .closeBtn{
+    color: #686666;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-right: 4%;
+    cursor: pointer;
+}
+
+.mobal-box  .modal-container{
+    padding: 20px;
+}
+.mobal-box  .modal-container .modal-text{
+    border-bottom: 2px solid #000;
+    border-radius: 0px;
+    background: #9e9e9e00;
+    width: 90%;
+    position: relative;
+    padding: 0px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-left: 7%;
+    margin-top: -7%;
+    font-size: 18px
+
+}
+.mobal-box  .modal-container .phone{
+    position: absolute;
+    top: 11%;
+    left: 16%;
+}
+.mobal-box  .modal-container .fa-fax{
+    position: absolute;
+    top: 11%;
+    left: 16%;
+}
+.mobal-box  .modal-container .table{
+    width: 100%;
+    margin-left: 21%;
+    margin-top: -3%;
+}
+.mobal-box  .modal-container .table  .tel-button{
+    border: none;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 14px;
+    margin-right: 10px;
+    height: 35px;
+    width: 40px;
+    text-align: center;
+    padding-top: 8px;
+    box-shadow: 0px 3px 5px 0px #888888;
+    font-size: 15px;
+
+}
+.btn-tr{
+    margin-left: 33%;
+}
+.btn-ok{
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 58%;
+    box-shadow: 0px 3px 5px 0px #888888;
+    background: #ffffff;
+}
+.table tbody tr:hover td {
+    background: none;
+}
+#Fax-Modal .btn{
+    color: #686666;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-right: 4%;
+    cursor: pointer;
+}
+/*End modal box*/
+
+/*Start Company info

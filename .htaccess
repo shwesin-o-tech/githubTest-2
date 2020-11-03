@@ -1,0 +1,25 @@
+RewriteEngine on
+
+
+#home
+RewriteRule ^home$ view/1-1_client/1-1-1_home.php [L,NC]
+
+#client
+RewriteRule ^client$ view/1-1_client/1-1-1_list.php [L,NC]
+#client
+RewriteRule ^client-entry$ view/1-1_client/1-1-3_create.php [L,NC]
+
+#stock
+RewriteRule ^stock$ view/1-2_stock/1-2-1_list.php [L,NC]
+#stock
+RewriteRule ^stock-entry$ view/1-2_stock/1-2-2_create.php [L,NC]
+
+#rental and lease
+RewriteRule ^rental$ view/1-3_rental/1-3-1_list.php [L,NC]
+RewriteRule ^rental-entry$ view/1-3_rental/1-3-2_create.php [L,NC]
+
+#selling
+RewriteRule ^selling$ view/1-4_selling/1-4-1_create.php [L,NC]
+
+
+

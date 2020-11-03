@@ -1,0 +1,507 @@
+ /*start step by step progress*/
+.multistep-container  .heading{
+	font-size: 12px;
+    margin-top: -8px;
+    margin-left: 17px;
+}
+.multistep-container .active-button{
+	display: table;
+	margin:auto;
+	padding-left:0;
+}
+.multistep-container .active-button li{
+	display: inline-block;
+	width: 100px;
+}
+.multistep-container .active-button li .round-btn{
+	width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #cccccc36;
+    display: block;
+    color: #000;
+    text-align: center;
+    margin: auto;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.4), 0px 0px 8px rgba(0, 0, 0, 0);
+    line-height: 10%;
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
+    background: #edf2fb;
+    left: 15%;
+    margin-top: 16px;
+    
+}
+.active-button .round-text{
+	font-size:9px;
+    margin-left: 34%;
+    display: block;
+    width: 30px;
+    margin-top: 4%;
+    text-align: center;
+    color: #999393;
+}
+.active-button .text-one{
+	padding-left: 17%;
+}
+.active-button .text-two{
+	padding-left: 10%;
+}
+.active-button .text-three{
+	margin-left: 19%;
+}
+
+.multistep-container .active-button li .step-bar{
+	position: absolute;
+    content: '';
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 68%;
+    height: 13px;
+    background: #000;
+    left: 60px;
+    z-index: 1;
+    top: 26%;
+    border-radius: 70px;
+    background: #495057d6;
+}
+.multistep-container .active-button #s-round-btn{
+	left:3%;
+}
+.multistep-container .active-button #t-round-btn{
+	left: -14%;
+}
+
+.multistep-container .active-button li.active .round-btn{
+	background: #edae49;
+}
+.global {
+	margin-left: 98%;
+    margin-top: -25%;
+}
+.global  i{
+	font-size: 1.7em;
+	text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+/* end step by step progress*/
+
+/*border line*/
+.border_line{
+	border-bottom: 3px solid #999393;
+    width: 297px;
+    margin-left: 3%;
+    margin-top:17%;
+}
+/* End border line*/
+
+/*Start Company info*/
+.company_info p{
+	margin-left: 1%;
+    margin-top: 5%;
+    color: #757373;
+    font-weight: 900;
+    font-size: 14px;
+}
+.company-container{
+	display: block;
+    max-height: 355px;
+    margin-left: 7%;
+    margin-top: 4%;
+    overflow-y: scroll;
+
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+.company-container .company-txt{
+	width: 100%;
+}
+.company-container .company-txt label{
+	display: block;
+	color: #6c757d;
+	font-size: 12px;
+}
+.company-container .company-txt input{
+	width: 90%;
+	height: 32px;
+}
+.company-container .company-txt .w-50{
+	width: 50%;
+	
+}
+.company-txt .circle-container{
+	margin-top: 4%;
+    margin-left: 10%;
+}
+.company-txt .industry-container{
+	display: flex;
+	margin-left: 20px;
+
+}
+.company-txt .industry-container .con p{
+	font-size: 10px;
+}
+.company-txt .industry-container .operation{
+	display: flex;
+	width: 30px;
+    height: 30px;
+    margin-left: 55%;
+    cursor: pointer;
+}
+.company-txt .industry-container .fa-plus{
+	font-size: 8px;
+    margin-top: 2px;
+}
+.company-txt .industry-container .minus{
+	width: 20px;
+    height: 20px;
+    border-bottom: 20px solid #736b6bd9;
+    border-left: 20px solid transparent;
+    margin-left: -9px;
+    margin-top: 1px;
+    box-shadow: 4px 5px 5px rgb(0 0 0 / 6%), 0px 0px 0px rgba(0, 0, 0, 0);
+}
+.company-txt .industry-container  .fa-minus{
+	font-size: 7px;
+    margin-left: -15px;
+    color: #fff;
+    padding: 5px;
+}
+.company-txt .except{
+	margin-top:5%;
+}
+.company-txt .industry-container .except-con p{
+	width: 150px;
+	font-size: 10px;
+}
+.company-txt .except-operation{
+	display: flex;
+	width: 30px;
+    height: 30px;
+	margin-left: 23%;
+	cursor: pointer;
+}
+
+.company-txt p{
+	margin-top: 8%;
+	color: rgb(0 0 0 / 33%);
+	display: block;
+	font-size: 12px;
+}
+.company-txt .md{
+	color: rgb(0 0 0 / 49%);
+}
+.col-container{
+	display: flex;
+	margin-top:3%;
+}
+.col-container{
+	
+}
+.company-txt .col-50{
+	width: 50%;
+	margin-top: 3%;
+}
+
+.company-txt .col-50 label{
+	font-size: 10px;
+	margin-left:1%;
+}
+.company-txt .col-50 input{
+	width: 85%;
+	margin-top:2%;
+}
+/*.company-txt .col-50 .col-50-text{
+	font-size: 1rem;
+}
+.company-txt .col-50 .col-50-input{
+	margin-left: 13%;
+	width: 80%;
+	margin-top:3%;
+}*/
+.company-txt .col-100{
+	width: 100%;
+	margin-top:5%;
+}
+
+.company-txt .col-100 .label-text{
+	width: 100%;
+	display: flex;
+}
+.company-txt .col-100 .label-text .col-50-text{
+	width: 35%;
+}
+.company-txt .col-100 .label-text i{
+	width: 20%;
+	font-size: 12px;
+	margin-left: 22%;
+	text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	color: #999393;
+}
+.company-txt .col-100 .label-text .line{
+	width: 10px;
+    height: 2px;
+    background-color: rgb(0 0 0 / 19%);
+    margin-top: 7px;
+    margin-left: 4px;
+
+}
+
+.company-txt .col-100 .label-text span{
+    color: rgb(0 0 0 / 40%);
+    margin-left: 1%;
+    font-size: 9px;
+}
+.company-txt .col-100 .col-50-input{
+	width: 40%;
+	margin-left:7%;
+}
+.company-txt{
+    margin-bottom:5%;
+}
+.loc{
+	margin-top: 8%;
+}
+.multistep-container .Btn{
+	display: block; 
+	overflow: hidden; 
+	position: fixed; 
+	width:90px;
+	background: #6c757dab;
+	color: #ffffff; 
+	border-radius: 9px;
+	box-shadow: 3px 3px 4px rgb(0 0 0 / 25%), 0px 0px 0px rgb(0 0 0 / 33%);
+	right: 17px;
+	height: 25px;
+	text-align: center;
+	font-weight: 500;
+    padding-top: 3px;
+    top: 93%;
+}
+.inner{
+	height: 35px;
+    margin-left: 10px;
+}
+.card_header .heading{
+	width: 200px;
+} 
+.card_header .heading .heading-text{
+	font-size: 18px;
+	text-align: left;
+}
+.card_header .setting {
+    float: right;
+    margin-left: 19%;
+}
+.card_header .heading  .heading-text-sub{
+	font-size: 10px;
+	text-align: left;
+}
+
+/*For modal box*/
+.mobal-box{
+	width: 90%;
+    background: #edf2f7;
+    position: absolute;
+    border-radius: 8px;
+    height: 42%;
+    top: 51%;
+    left: 4%;
+    display: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: 1px solid #9E9E9E;
+
+}
+.mobal-box .closeBtn{
+	color: #686666;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-right: 4%;
+    cursor: pointer;
+}
+
+.mobal-box  .modal-container{
+	padding: 20px;
+}
+.mobal-box  .modal-container .modal-text{
+    border-bottom: 2px solid #000;
+    border-radius: 0px;
+    background: #9e9e9e00;
+    width: 90%;
+    position: relative;
+    padding: 0px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-left: 7%;
+    margin-top: -7%;
+    font-size: 18px
+
+}
+.mobal-box  .modal-container .phone{
+	position: absolute;
+    top: 11%;
+    left: 16%;
+}
+.mobal-box  .modal-container .fa-fax{
+	position: absolute;
+    top: 11%;
+    left: 16%;
+}
+.mobal-box  .modal-container .table{
+	width: 100%;
+	margin-left: 21%;
+	margin-top: -3%;
+}
+.mobal-box  .modal-container .table  .tel-button{
+	border: none;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 14px;
+    margin-right: 10px;
+    height: 35px;
+    width: 40px;
+    text-align: center;
+    padding-top: 8px;
+    box-shadow: 0px 3px 5px 0px #888888;
+    font-size: 15px;
+
+}
+.btn-tr{
+	margin-left: 33%;
+}
+.btn-ok{
+	padding: 3px 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 58%;
+    box-shadow: 0px 3px 5px 0px #888888;
+    background: #ffffff;
+}
+.table tbody tr:hover td {
+	background: none;
+}
+#Fax-Modal .btn{
+	color: #686666;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-right: 4%;
+    cursor: pointer;
+}
+/*End modal box*/
+
+/*Construciton modal*/
+.mobal-box  .modal-container h2{
+	font-size: 18px;
+    color: #495057d1;
+    margin-top: -12px;
+}
+.mobal-box  .modal-container p{
+	font-size: 12px;
+}
+.mobal-box  .modal-container  .table-container{
+	width: 100%;
+    margin-left: 0%; 
+    margin-top: 4%;
+}
+.mobal-box  .modal-container .inner-table{
+	width: 100%;
+    border-collapse: collapse;
+}
+.mobal-box  .modal-container .inner-table tr{
+	border-radius: 40px;
+    background: #cccccc4d;
+    box-shadow: 4px 4px 2px -2px #6c6f717a;
+    width: 245px;
+    height: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 6px auto;
+}
+
+.mobal-box  .modal-container .inner-table tr:hover
+{
+    border:1px solid grey;
+   
+}
+.mobal-box  .modal-container .inner-table .td_circle:hover{
+	border-top-right-radius: 1px solid grey;
+	border-bottom-right-radius: 1px solid grey;
+}
+.mobal-box  .modal-container .inner-table .td_circle{
+	width: 25px;
+    height: 24px;
+    padding-top: -1px;
+    font-size: 10px;
+    background-color: #999999ad;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.4), 0px 0px 8px rgba(0, 0, 0, 0);
+    position: absolute;
+    color: #fff;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin: -1px auto;
+    text-align: center;
+}
+.mobal-box  .modal-container .inner-table .td_circle span{
+	display: block;
+    font-size: 6px;
+}
+.mobal-box  .modal-container .inner-table .td-text{
+	padding-left: 43px;
+    font-size: 11px;
+}
+.mobal-box  .modal-container .inner-table .td-text span{
+	display: block;
+    font-size: 8px;
+    margin-top: -4px;
+    letter-spacing: 0.5px;
+}
+.mobal-box  .modal-container .inner-table{
+	display: block;
+    max-height: 166px;
+    overflow-y: scroll;
+    position: relative;
+    margin-left: 20px;
+}
+.construction-ok{
+	position: absolute;
+    top: 85%;
+    left: 14%;
+}
+.mobal-box .modal-container .inner-table .td_except_text{
+	padding-left: 20px;
+}
+.selected{
+	background: red;
+}
+
+
+.add_construction_div{
+	width: 90px;
+    height: 24px;
+    font-size: 8pt;
+    border-radius: 15px;
+    margin-bottom: 3px;
+    margin-left: 6px;
+    text-align: center;
+    font-size: 8px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #999;
+    border: 1px solid #00000069;
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+/*End construction modal
+
+/*Start Company info

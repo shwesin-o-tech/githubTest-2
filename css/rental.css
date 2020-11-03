@@ -1,0 +1,804 @@
+.card_header .icon_right .fa-cog{
+	border: 1px solid #ccc;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.card_header .icon_left .icon_inner {
+    width: 35px;
+    border: 1px solid #999;
+    border-radius: 7px;
+}
+.card_header .icon_left .fa-angle-double-left{
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+/*End Card Header*/
+
+/*Start Card body For List */
+.card_body .card_row{
+	display: flex;
+	flex-direction:row;
+	margin-top: -14px;
+	margin-bottom: 3%;
+}
+.card_body .width-40{
+	width: 40%;
+	display: inline-block;
+    margin-left: -10px;
+    font-size: 18px;
+    color: #757373;
+}
+.card_body .width-60{
+	width: 60%;
+	display: flex;
+	margin-left: 49px;
+
+}
+.width-60 input::placeholder{
+	text-align: center;
+	font-size: 12px;
+}
+.card_body .width-60 .width-input .input{
+	width: 80px;
+	margin-right:10px;
+	background: #fff;
+	border: 0px;
+	padding:4px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+span .fa-minus{
+	margin-top: 5px;
+}
+.card_body .width-60 .width-input .input1{
+	width: 80px;
+	margin-left: 10px;
+	background: #fff;
+	border: 0px;
+	padding:4px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+.card_body_table .table{
+	margin-top: -10px;
+}
+
+td{
+	border:0;	
+}
+.card_body_table .table .tr_row .td_row{
+	padding-left:20px;
+}
+/*End Card body For List */
+
+
+/*Start Card body for Create*/
+.body{
+	padding: 10px;
+	background: #F2F4F4;
+}
+.body .card_body_id .id{
+	float: right;
+    font-size: 8px;
+    color: #171717;
+    margin-top: -3px;
+    margin-right: 3px;
+}
+.body .card_body_row{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin-top: 11px;
+
+}
+.body .card_body_row .card_row_text{
+	font-size: 18px;
+    margin-left: -4px;
+    color: #757373;
+}
+.body .card_body_row .card_row_date{
+	font-size: 8px;
+	padding-left: 157px;
+	color: #171717;
+	line-height: 1.5;
+}
+.body .card_body_row .card_row_date .p-right{
+	text-align: right;
+}
+
+.body .card_body_client{
+	padding: 10px 20px 0px;
+}
+.body .card_body_client .client_label{
+	font-size: 12px;
+	display: block;
+}
+.body .card_body_client input{
+	width: 300px;
+	border:0;
+	border-radius: 6px;
+	height: 24px;
+	color: #757373;
+}
+.body .card_body_client input::placeholder{
+	font-size: 12px;
+	padding-left: 10px;
+	color: #757373;
+}
+.body .border_line{
+	display: inline-block;
+	width: 95%;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    margin-left: 2%;
+}
+.body .switch_toggle{
+	display: flex;
+	margin-top: 10px;
+	width: 100%;
+}
+.body .switch_button{
+	width: 45%;
+	margin-left: 20px;
+   
+}
+.body .switch_button1{
+	width: 45%;
+	margin-left:3%; 
+}
+
+.body .location{
+	width: 10%;
+	
+}
+.body .location .location_inner{
+	width: 18px;
+	height: 18px;
+	margin-left: 11%;
+    margin-top: 23%;
+} 
+.body .switch_button label p{
+	font-size: 12px;
+}
+input[type="checkbox"]{
+	position: relative;
+	width: 150px;
+	height:30px;
+	background: #bdc3c7;
+	-webkit-appearance:none;
+	border-radius: 20px;
+	outline: none;
+	transition: 0.4s;
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+	cursor: pointer;
+	border:1px solid #ddd;
+}
+input:checked[type="checkbox"]{
+	background: #3498db;
+}
+input[type="checkbox"]::before{
+	position: absolute;
+	content: "";
+	left: 0;
+	width: 50%;
+	height: 27px;
+	background: #fff;
+	border-radius: 20px;
+	transform: scale(1.1);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	transition: 0.4s;
+}
+input:checked[type="checkbox"]::before{
+	left: 72px;
+}
+.toggle{
+	position: relative;
+	display: inline;
+}
+.toggle label{
+	position: absolute;
+	font-weight: 600;
+	font-size: 12px;
+	pointer-events: none;
+}
+.onbtn{
+	bottom: 11px;
+	left: 15px;
+	color: #34495e;
+}
+.offbtn{
+	bottom: 11px;
+	right: 14px;
+	color: #34495e;
+}
+.term{
+	width: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.term .term_label{
+	font-size: 12px;
+}
+.term .input-group{
+	display: flex;
+	margin-top: -7px;
+}
+.term .input-group .term_input input{
+	width: 144px;
+	height: 24px;
+	border: 0;
+    border-radius: 6px;
+}
+.term .input-group .term_input p{
+	font-size: 10px;
+	text-align: right;
+}
+.term .input-group  #input{
+	margin-left:5%;
+}
+.term .input-group input::placeholder{
+	padding-left:25%;
+}
+
+.total{
+	width: 100%;
+	display: flex;
+	margin-left: 20px;
+    margin-top: 5px;
+}
+.total .total_input{
+	width: 50%;
+}
+.total .total_input label{
+	font-size: 12px;
+}
+.total .total_input input{
+	width: 144px;
+	height: 24px;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+}
+.total .total_input1{
+	width: 50%;
+	margin-left:-5%;
+	margin-top: 2px;
+}
+.total .total_input1 label{
+	font-size: 12px;
+	display: block;
+}
+.total .total_input1 input{
+	width: 144px;
+	height: 24px;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+}
+.total input::placeholder{
+	text-align: right;
+	padding-right: 5px;
+}
+
+.scroll_table table{
+	width: 100%;
+	
+}
+.scroll_table table tr, th{
+	font-size: 12px;
+	
+}
+.scroll_table table.tableBodyScroll tbody {
+  display: block;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.scroll_table table.tableBodyScroll thead, table.tableBodyScroll tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  width: 313px;
+  margin: auto;
+}
+/*.scroll_table table.tableBodyScroll tbody tr{
+	background: #fff;
+	box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4), 0px 0px 8px rgba(0, 0, 0, 0);
+	border-radius: 5px;	
+	height: 36px;
+	margin: 5px auto;
+}*/
+.scroll_table table.tableBodyScroll tbody th,td{
+	padding:0px;
+	padding-left:15px;
+}
+.scroll_table table.tableBodyScroll .fa-plus{
+	padding-left: 23%;
+    font-size: 12px;
+}
+.scroll_table table.tableBodyScroll .fa-minus{
+	padding-left: 4%;
+    font-size: 12px;
+}
+.scroll_table table.tableBodyScroll tbody tr td .p{
+	padding-left: 4%;
+}
+
+/*End Card body for Create
+
+
+/*Responsive*/
+/* smartphones, iPhone, portrait 480x320 phones */
+@media only screen   and (min-device-width : 320px)  and (max-device-width : 480px) {
+	/*start main container*/
+	.main_container .row{
+		margin-left: 0px;
+	}
+	/*start main container*/
+
+ 	/*header*/
+ 	.card_header{
+		margin-left: 0px;
+		border-radius: 15px 15px 0px 0px;
+	}
+	/*end header*/
+
+	.width-60 input::placeholder{
+		text-align: center;
+		font-size: 12px;
+	}
+
+	.card_body_table .tr_row{
+		padding: 5px;
+		background: #fff;
+		box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4), 0px 0px 8px rgba(0, 0, 0, 0);
+		border-radius: 5px;	
+	}
+	.scroll_table table.tableBodyScroll tbody tr{
+		background: #fff;
+		box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4), 0px 0px 8px rgba(0, 0, 0, 0);
+		border-radius: 5px;	
+		height: 36px;
+		margin: 5px auto;
+	}
+	.card_body .width-60 {
+    	margin-left: 26px;
+	}
+	.card_body_row{
+		margin-top:8%;
+	}
+	.term .input-group input::placeholder{
+		padding-left:25%;
+	}
+
+ }
+/*for ipad portrait */
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+
+	/*start main container*/
+	.main_container .row{
+		margin-left: 0px;
+	}
+	/*start main container*/
+
+ 	/*header*/
+ 	.card_header{
+		margin-left: 0px;
+	}
+ 	.card_header .icon_right {
+   	 	margin-left: 80%;
+	}
+	/*end header*/
+
+	/*for listing*/
+	.card_body .card_row{
+		margin-top:-5px;
+	}
+	.card_body .width-40 {
+		width: 14%;
+		margin-left: 0px;
+	}
+	.card_body .width-60{
+		margin-left: 4%;
+	}
+	.card_body .width-60 span .fa-minus{
+		margin-left: 5px;
+		margin-top:7px;
+	}
+
+	.card_body .width-60 .width-input .input{
+		width: 100%;
+		height: 30px;
+	}
+	.card_body .width-60 .width-input .input1{
+		width: 100%;
+		height: 30px;
+	}
+	/*for listing*/
+
+	/*for create*/
+	.body .body_inner{
+		padding:10px 20px;
+	}
+	.body .card_body_id .id {
+		font-size:13px;
+	}
+	.body .card_body_row {
+		position: relative;
+	}
+	.body .card_body_row .card_row_text {
+		float: left;
+   		padding-left: 20px;
+	}
+	.body .card_body_row .card_row_date {
+		position: absolute;
+	    right: 0;
+	    top: 2px;
+	    font-size: 13px;
+	}
+	.body .card_body_client{
+		width: 100%;
+		margin-top:20px;
+	}
+	.body .card_body_client .client_label {
+		font-size: 16px;
+		padding-left:15%;
+	}
+	.body .card_body_client input{
+		width: 70%;
+		height: 35px;
+		margin-top: 4px;
+		margin-left: 15%;
+   		margin-right: 15%;
+	}
+	.body .border_line{
+		margin-top: 4%;
+	}
+	.body .switch_toggle {
+		width: 100%;
+	    margin-left: 15%;
+	    margin-top:15px;
+
+	}
+	.body .switch_button {
+		width: 30%;
+	}
+	.body .switch_button1 {
+		width: 30%;
+		margin-left: 4%;
+	}
+
+	input[type="checkbox"] {
+		width: 200px;
+   		height: 43px;
+	}input[type="checkbox"]::before{
+		width: 52%;
+    	height: 40px;
+	}input:checked[type="checkbox"]::before {
+    	left: 92px;
+	}
+	.onbtn {
+	    bottom: 16px;
+   		left: 36px;
+	}
+	.offbtn {
+	    bottom: 16px;
+    	right: 31px;
+	}
+	.body .location .location_inner {
+		margin-top: 17%;
+    	margin-left: 23%;	
+	}
+	.term{
+		margin-left: 17%;
+		margin-top: 15px;
+	}
+	.term .term_label{
+		font-size: 16px;
+	}
+	.term .input-group{
+		width: 100%;
+	}
+	.term .input-group .term_input{
+		width: 50%;
+	}
+	.term .input-group .term_input input {
+		width: 62%;
+		height: 37px;
+	}
+
+	.term .input-group .term_input p{
+		display: block;
+	    font-size: 13px;
+   		text-align: center;
+   		padding-left: 15%;    
+	}
+	.term .input-group #input{
+		margin-left: -16%;
+	}
+	.total{
+		margin-left:17%;
+		margin-top:4%;
+	}
+	.total .total_input label {
+	    font-size: 16px;
+	    display: block;
+	    padding-bottom: 5px;
+	}
+	.total .total_input input{
+		width: 60%;
+    	height: 35px;
+	}
+	.total .total_input1{
+		margin-left: -16%;
+	}
+	.total .total_input1 label{
+		font-size: 16px;
+		padding-bottom: 3px;
+	}
+	.total .total_input1 input{
+		width: 60%;
+    	height: 35px;
+	}
+	.scroll_table{
+		width: 100%;
+		margin-left: 10%;
+		margin-top:4%;
+	}
+	.scroll_table .tableBodyScroll{
+		width: 80%;
+		border-collapse: collapse;
+	}
+	.scroll_table table.tableBodyScroll thead{
+		width: 100%;
+	}
+	.scroll_table .tableBodyScroll .tr_row{
+		width: 100%;
+	}
+	.scroll_table .tableBodyScroll th{
+		padding: 10px 5px;
+	}
+	
+	.scroll_table .tableBodyScroll td{
+		padding: 3px 5px;
+		text-align: center;
+		font-size: 15px;
+		color: #7a878e;
+	}
+
+	.tableBodyScroll th{
+		background: #099;
+		color: #ffffff;
+	}
+	.tableBodyScroll tbody tr:nth-child(even){
+		background: #faffff;
+
+	}
+	.tableBodyScroll tr td:focus{
+		outline: none;
+	}
+	.tableBodyScroll tbody tr:hover td{
+		background: #ffffeb;
+	}
+
+
+ }
+
+
+/*PC*/
+@media screen and (min-width: 1224px){
+	/*start header*/
+	.card_header .icon_right .icon_right_inner {
+	    float: right;
+	    position: absolute;
+	    top: 9%;
+	    right: 7px;
+	}
+	.card_body .card_body_left {
+		margin-top:2%;
+	}
+	.card_body_left h5{
+		font-size: 15px;
+	}
+	/*end header*/
+
+
+	/*for rental list*/
+	.card_body .card_row{
+		margin-top:-5px;
+	}
+	.card_body .width-40 {
+		width: 11%;
+		margin-left: 0px;
+	}
+	.card_body .width-60{
+		margin-left: 4%;
+	}
+	.card_body .width-60 span .fa-minus{
+		margin-left: 5px;
+		margin-top:7px;
+	}
+	.card_body .width-60 .width-input .input{
+		width: 100%;
+		height: 30px;
+	}
+	.card_body .width-60 .width-input .input1{
+		width: 100%;
+		height: 30px;
+	}
+	.card_body_table .table .tr_row{
+		padding: 0px; 
+    	border-radius:0px; 
+    	margin: 0px;	
+	}
+	/*end rental list*/
+
+
+	/*for create*/
+	.body .body_inner{
+		padding:10px 20px;
+	}
+	.body .card_body_id .id {
+		font-size:13px;
+	}
+	.body .card_body_row {
+		position: relative;
+	}
+	.body .card_body_row .card_row_text {
+		float: left;
+   		padding-left: 20px;
+	}
+	.body .card_body_row .card_row_date {
+		position: absolute;
+	    right: 0;
+	    top: 2px;
+	    font-size: 13px;
+	}
+	.body .card_body_client{
+		width: 100%;
+		margin-top:20px;
+	}
+	.body .card_body_client .client_label {
+		font-size: 16px;
+		padding-left:15%;
+	}
+	.body .card_body_client input{
+		width: 70%;
+		height: 35px;
+		margin-top: 4px;
+		margin-left: 15%;
+   		margin-right: 15%;
+	}
+
+	.body .border_line{
+		margin-top: 2%;
+	}
+	.body .switch_toggle {
+		width: 100%;
+	    margin-left: 15%;
+	}
+	.body .switch_button {
+		width: 50%;
+	}
+	.body .switch_button1 {
+		width: 50%;
+		margin-left: -17%;
+	}
+
+	input[type="checkbox"] {
+		width: 250px;
+   		height: 44px;
+	}input[type="checkbox"]::before{
+		width: 56%;
+    	height: 40px;
+	}input:checked[type="checkbox"]::before {
+    	left: 104px;
+	}
+	.onbtn {
+	    bottom: 16px;
+    	left: 45px;
+	}
+	.offbtn {
+	    bottom: 16px;
+	    right: 46px;
+	}
+	.body .location .location_inner {
+		margin-top: 16%;
+    	margin-left: -178%;
+	}
+	.term{
+		margin-left: 17%;
+	}
+	.term .term_label{
+		font-size: 16px;
+	}
+	.term .input-group{
+		width: 100%;
+	}
+	.term .input-group .term_input{
+		width: 50%;
+	}
+	.term .input-group .term_input input {
+		width: 62%;
+		height: 37px;
+	}
+	.term .input-group .term_input input::placeholder{
+		padding-left:35%;
+	}
+
+	.term .input-group .term_input p{
+		display: block;
+	    font-size: 13px;
+   		text-align: center;
+   		padding-left: 15%;    
+	}
+	.term .input-group #input{
+		margin-left: -16%;
+	}
+	.total{
+		margin-left:17%;
+		margin-top: 2%;
+   		margin-bottom: 2%;
+	}
+	.total .total_input label {
+	    font-size: 16px;
+	    display: block;
+	    padding-bottom: 5px;
+	}
+	.total .total_input input{
+		width: 60%;
+    	height: 35px;
+	}
+	.total .total_input1{
+		margin-left: -16%;
+	}
+	.total .total_input1 label{
+		font-size: 16px;
+		padding-bottom: 3px;
+	}
+	.total .total_input1 input{
+		width: 60%;
+    	height: 35px;
+	}
+	.scroll_table{
+		width: 100%;
+		margin-left: 10%;
+		margin-top: 3%;
+    	margin-bottom: 5%;
+	}
+	.scroll_table .tableBodyScroll{
+		width: 80%;
+		border-collapse: collapse;
+	}
+	.scroll_table table.tableBodyScroll thead{
+		width: 100%;
+	}
+	.scroll_table .tableBodyScroll .tr_row{
+		width: 100%;
+	}
+	.scroll_table .tableBodyScroll th{
+		padding: 10px 5px;
+	}
+	
+	.scroll_table .tableBodyScroll td{
+		padding: 3px 5px;
+		text-align: center;
+		font-size: 15px;
+		color: #7a878e;
+	}
+
+	.tableBodyScroll th{
+		background: #099;
+		color: #ffffff;
+	}
+	.tableBodyScroll tbody tr:nth-child(even){
+		background: #faffff;
+
+	}
+	.tableBodyScroll tr td:focus{
+		outline: none;
+	}
+	.tableBodyScroll tbody tr:hover td{
+		background: #ffffeb;
+	}	
+
+}
